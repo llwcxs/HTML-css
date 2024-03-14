@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>World of Warcraft</title>
+
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+
+  <link rel="stylesheet" href="./styles/global.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <div class="bg-video">
+    <video class="video" autoplay muted loop>
+      <source src="https://www.youtube.com/watch?v=-i1JVMspDJQ&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=40 type="video>
+    </video>
+  </div>
+
+  <div id="app">
+    <header>
+      <img class="logo__cap" src="./assets/warcraft-logo.png" alt="Logo de World of Warcraft"/>
+
+      <div class="navigation">
+        <ul class="navigation__links">
+          <li>
+            <a href="#" class="navigation__link">Home</a>
+          </li>
+          <li>
+            <a href="#" class="navigation__link">História</a>
+          </li>
+          <li>
+            <a href="#" class="navigation__link">Wallpapers</a>
+          </li>
+          <li>
+            <a href="#" class="navigation__link">Trailer</a>
+          </li>
+        </ul>
+  
+        <div class="navigation__social">
+          <a href="#" target="_blank">
+            <!-- Substitua o conteúdo do SVG pelo ícone de sua escolha -->
+          </a>
+          <a href="#" target="_blank">
+            <!-- Substitua o conteúdo do SVG pelo ícone de sua escolha -->
+          </a>
+          <a href="#" target="_blank">
+            <!-- Substitua o conteúdo do SVG pelo ícone de sua escolha -->
+          </a>
+          <a href="#" target="_blank">
+            <!-- Substitua o conteúdo do SVG pelo ícone de sua escolha -->
+          </a>
+        </div>
+      </div>
+
+      <button type="button" id="button" onclick="handleClick()" class="button__mobile">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <main>
+      <div class="main__info">
+        <img
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-easing="ease-in-out"
+          src="./assets/warcraft-logo.png"
+          alt="Logo de World of Warcraft"
+        />
+        
+        <p
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="300"
+          data-aos-easing="ease-in-out"
+        >
+          Entre no épico mundo de Azeroth, onde heróis e vilões colidem em batalhas de proporções lendárias. 
+          Embarque em missões épicas, conquiste terras desconhecidas e forje sua própria lenda em World of Warcraft.
+        </p>
+
+        <div
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-delay="600"
+          data-aos-easing="ease-in-out"
+        >
+          <a href="#" target="_blank">
+            Conheça mais sobre Warcraft
+          </a>
+          <button type="button">Jogue agora</button>
+        </div>
+      </div>
+
+      <img 
+        data-aos="fade-up"
+        data-aos-duration="800"
+        data-aos-delay="500"
+        data-aos-easing="ease-in-out"
+        src="./assets/warcraft-image.png"
+        alt="Imagem do World of Warcraft"
+      />
+    </main>
+  </div>
+
+  <script src="./index.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

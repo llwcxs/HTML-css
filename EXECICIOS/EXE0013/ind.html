@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Seu Nome</h1>
+            <p>Desenvolvedor Web</p>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Sou um desenvolvedor web apaixonado por criar experiências incríveis na web.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projetos Recentes</h2>
+            <div class="project">
+                <img src="project1.jpg" alt="Projeto 1">
+                <h3>Projeto 1</h3>
+                <p>Descrição do Projeto 1.</p>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Projeto 2">
+                <h3>Projeto 2</h3>
+                <p>Descrição do Projeto 2.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contato</h2>
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            &copy; 2024 Seu Nome - Portfólio
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

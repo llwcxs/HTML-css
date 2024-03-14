@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .wheel-container {
+    position: relative;
+  }
+  
+  .wheel {
+    width: 300px;
+    height: 300px;
+    background-color: #f00; /* Cor de fundo da roleta */
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  .wheel-segment {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    clip-path: polygon(100% 100%, 100% 0, 0 0);
+    background-color: #fff; /* Cor de fundo dos segmentos */
+  }
+  
+  #btn-start {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Cor do botão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #winnerMessage {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  

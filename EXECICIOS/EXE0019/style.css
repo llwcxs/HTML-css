@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    background-color: aqua;
+    font-family: sans-serif;
+}
+h1 {
+    color: brown;
+}
+h1#principal {
+    text-align: center;
+    background-color: rgb(233, 6, 6);
+    color: black;
+    
+}
+h2 {
+    color: crimson;
+}
+.lorem {color: rgb(28, 139, 0);} 
